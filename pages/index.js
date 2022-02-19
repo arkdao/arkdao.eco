@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -15,10 +14,15 @@ export default function Home() {
         <h1 className={styles.title}>
           ArkDAO
         </h1>
-        <p>coming soon</p>
+        <p>coming soon, see community links below!</p>
+        <p>turn any piece of land into an ecological, regenerative ark</p>
+        <p><em>ark:</em> something affording protection; safety, shelter, refuge</p>
+        <p>
+	  <a className={styles.highlight} href="/link/email">email list signup</a>
+	  &nbsp;&nbsp;|&nbsp;&nbsp;
+	  <a className={styles.highlight} href="/link/discord">discord</a>
+	</p>
       </main>
-      <footer className={styles.footer}>
-      </footer>
     </div>
   )
 }
