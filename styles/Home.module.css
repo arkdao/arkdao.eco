@@ -114,3 +114,7 @@
     flex-direction: column;
   }
 }
+
+.highlight {
+  color: #0b8e44;
+}
